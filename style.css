@@ -1,0 +1,58 @@
+html{
+    font-size: 10px;
+    background: url('https://media.istockphoto.com/id/1472354302/photo/bass-drum-with-pedal-musical-instrument-on-black-background.jpg?s=612x612&w=0&k=20&c=NU7RR4LRqUcMrQ7bc5yMgOHG3U2lsdmEu90Vysg3sc8=') bottom center ;
+    background-size: cover;
+
+}
+body,html{
+    margin :0;
+    padding: 0;
+    font-family:sans-serif ;
+}
+.keys{
+    display:flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.title{
+    font-size: 3rem;
+    color: violet;
+    text-align: center;
+    /* padding-top: 30px; */
+}
+.key{
+    border: .4rem solid rgba(0,0,0,0.24);
+    border-radius: .5rem;
+    margin:1rem;
+    font-size: 1.5rem;
+    padding:1rem .5rem;
+    transition:  all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background:rgba(58,53,53,0.4);
+
+}
+
+.playing{
+    transform : scale;
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+
+}
+kbd{
+    display: block;
+    font-size: 4rem;
+
+}
+.sound{
+    font-size: 1.2rem;
+    text-transform:upper ;
+    letter-spacing:.1rem;
+    color: #ffc600;
+
+}
